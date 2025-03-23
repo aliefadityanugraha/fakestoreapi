@@ -1,7 +1,7 @@
 import Conditional from "../componets/condition";
 import FavoriteColor from "../componets/useState";
 import Timer from "../componets/useEffect";
-import {GetData, GetOneData} from "../handler/api";
+import {GetData} from "../handler/api";
 
 const Home = () => {
     return (
