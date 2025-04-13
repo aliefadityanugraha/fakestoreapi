@@ -5,7 +5,7 @@ function Navbar() {
         <>
             <nav className="navbar bg-dark navbar-expand-lg bg-body-tertiary">
                 <div className="container">
-                    <Link className="navbar-brand" to="/">Fake Store Api</Link>
+                    <Link className="navbar-brand" to="/">Api React</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
                             aria-label="Toggle navigation">
@@ -18,6 +18,12 @@ function Navbar() {
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link active" to="/about">About</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link active" to="/contact">Contact</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link active" to="/result">Result Contact</Link>
                                 </li>
                         </ul>
                         <span className="navbar-text">
