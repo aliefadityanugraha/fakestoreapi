@@ -5,9 +5,9 @@ function Result() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        const stored = localStorage.getItem('dataForm');
-        if (stored) {
-            setData(JSON.parse(stored));
+        const dataForm = localStorage.getItem('dataForm');
+        if (dataForm) {
+            setData(JSON.parse(dataForm));
         }
     }, []);
 

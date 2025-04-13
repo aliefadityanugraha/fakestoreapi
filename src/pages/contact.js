@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-function Contact() {
+export default function Contact() {
     const [data, setData] = useState({ name: '', message: '' });
     const navigate = useNavigate();
 
@@ -51,5 +51,3 @@ function Contact() {
         </div>
     );
 }
-
-export default Contact;
